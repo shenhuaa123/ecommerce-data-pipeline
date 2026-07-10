@@ -1,0 +1,30 @@
+# Python environment and cache
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated data
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/warehouse/*
+!data/warehouse/.gitkeep
+
+data/output/*
+!data/output/.gitkeep
